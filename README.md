@@ -1,6 +1,15 @@
 # pharma-care-cli
 
-A small demonstration pharmacy management CLI project containing a single C source file and a few example/supporting files.
+A small demonstration CLI command-line application that simulates a simple
+pharmacy management system. Implemented in plain C, the program provides a
+console-driven menu to manage medicines, suppliers, orders, and receipts —
+making it useful as an educational demo or lightweight prototype.
+
+**Features:**
+- Inventory management: add, edit, delete, search, and list medicines.
+- Supplier management: add, edit, remove, search, and list suppliers.
+- Order and receipt creation with simple sales tracking.
+- Admin panel with login, basic reporting, and contact/tech-team info.
 
 ## Quickstart
 
@@ -29,7 +38,6 @@ If the program accepts arguments, consult `main.c` for details.
 - [main.c](main.c): C source — program entrypoint.
 - [recieptDemo.txt](recieptDemo.txt): Example/demo output.
 - [issues.txt](issues.txt): Notes and known issues.
-- [NeverDoThis!!!.txt](NeverDoThis!!!.txt): Miscellaneous example / warnings — review before publishing.
 
 ## Contributing
 
